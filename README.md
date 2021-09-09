@@ -22,16 +22,16 @@ The file contains a dictionary of nodes as follows:
 ``` json
 {
     ...,
-    "4999": [   # ID as string
-        4999,     # ID as integer in [0: 5000)
+    "4999": [       // ID as string
+        4999,       // ID as integer in [0: 5000)
         [
-            49,     # x location in [0: 50)
-            99      # y location in [0: 100)
+            49,     // x location in [0: 50)
+            99      // y location in [0: 100)
         ],
-        "ARCTIC OCEAN",  # a tag; do not trust it too much
+        "ARCTIC OCEAN",  // a tag; do not trust it too much
         [
-            78.52165904546642,   # latitude
-            178.2                # longitude
+            78.52165904546642,   // latitude
+            178.2                // longitude
         ]
     ],
     ...
@@ -56,7 +56,7 @@ The list in `coords` holds node ID pairs while the list in `data` keeps the coun
         [23, 77],
         ...,
     ],
-    'data': [
+    "data": [
         ...,
         13,
         ...
