@@ -49,9 +49,9 @@ data/net-t087.json.gz
 It contains the drifter count that went from node 1 to node 2 in exactly 87 days.
 The list in `coords` holds node ID pairs while the list in `data` keeps the count of drifters that went from node 1 to node 2.
 
-``` json
+``` json5
 {
-    "coords": [
+    "coor ds": [
         ...,
         [23, 77],
         ...,
