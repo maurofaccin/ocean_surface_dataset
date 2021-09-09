@@ -19,7 +19,7 @@ The Earth is divided into a grid of $100 \times 50$ cells with constant area.
 Nodes or cells are reported in `data/net-nmap.json.gz`.
 The file contains a dictionary of nodes as follows:
 
-``` json
+``` json5
 {
     ...,
     "4999": [       // ID as string
