@@ -51,7 +51,7 @@ The list in `coords` holds node ID pairs while the list in `data` keeps the coun
 
 ``` json5
 {
-    "coor ds": [
+    "coords": [
         ...,
         [23, 77],
         ...,
